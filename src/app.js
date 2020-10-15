@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 // Express route handlers
 app.get('/test', (req, res) => {
-  res.status(200).send({ text: 'Simple Node App Working! - Break Something and Write About the Pieces!' });
+  res.status(200).send({ text: 'Simple Node App Working! - Fixed Now' });
 });
 
 module.exports = app;
